@@ -1,0 +1,76 @@
+h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+
+#home{
+    text-align: center;
+    margin-left: 47%;
+    font-size: 1.5rem;
+    transition: all .3s ease-in-out;
+}
+
+#mensagem{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-size: 1.5rem;
+}
+
+#home:hover{
+    color:#040B18;
+    text-shadow: 0 0 3px white;
+}
+
+#searching{
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 0.5rem;
+}
+
+#searchbar{
+    background: #161923;
+    width: 300px;
+    height: 40px;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #040B18;
+    border-radius: 8px;
+    outline: none;
+}
+
+button[type="submit"]{
+    max-width:32px; 
+    max-height:32px;
+    margin-left: 5px;
+    cursor:pointer
+}
+
+#linha{
+    margin-left: 27rem;
+    margin-bottom: 3rem;
+}
+
+#linha a{
+    margin-right: 20px;
+    transition: all .3s ease-in-out;
+}
+
+#linha a:hover{
+    color:white;
+    text-shadow: 0 0 3px rgb(247, 211, 140);
+}
+
+
+#info{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+#paginacao{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}

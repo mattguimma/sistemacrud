@@ -1,0 +1,38 @@
+*{
+    text-align: center;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+
+#linha{
+    margin-bottom: 3rem;
+}
+
+#linha a{
+    transition: all .3s ease-in-out;
+}
+
+#linha a:hover{
+    color:white;
+    text-shadow: 0 0 3px rgb(247, 211, 140);
+}
+
+
+#info{
+    margin-top: 1.5rem;
+}
+
+#back{
+    font-size: 2rem;
+    transition: all .3s ease-in-out;
+}
+
+#back:hover{
+    color:white;
+    text-shadow: 0 0 3px rgb(247, 211, 140);
+}

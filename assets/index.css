@@ -1,0 +1,59 @@
+h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 7.5rem;
+    font-size: 3rem;
+}
+
+#mensagem{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label{
+    display: flex;
+    flex-direction: column;
+}
+
+form label span{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+form input, button{
+    background: #161923;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: 1px solid #040B18;
+    border-radius: 8px;
+    outline: none;
+}
+
+button{
+    background: linear-gradient(to top left, #151080, #6C63FF);
+    color: #040B18;
+    cursor: pointer;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 25px;
+    transition: all .3s ease-in-out;
+}
+
+button:hover{
+    background: linear-gradient(to bottom right, #151080, #6C63FF);
+    color:wheat;
+}
+
+button:active{
+    background: #040B18;
+    color:wheat;
+}

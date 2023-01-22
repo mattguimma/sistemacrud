@@ -1,0 +1,53 @@
+h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 3rem;
+}
+
+#main{
+    margin-top: 3rem;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+#opcoes{
+    background: #490372;
+    font-size: 2rem;
+    padding: 0 1rem;
+    border-radius: 7.5px;
+    transition: all .3s ease-in-out;
+}
+
+a{
+    margin-bottom: 3rem;
+}
+
+#opcoes:hover{
+    background: #340350;
+}
+
+#opcoes:active{
+    background: #040B18;
+    color:white;
+}
+
+#sair{
+    background: #b40707;
+    width: 300px;
+    height: 200px;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    border-radius: 7.5px;
+    transition: all .3s ease-in-out;
+}
+
+#sair:hover{
+    background: #460202;
+}
+
+#sair:active{
+    background: #040B18;
+    color:white;
+}
