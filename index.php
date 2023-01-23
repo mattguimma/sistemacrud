@@ -1,6 +1,6 @@
-// ADMINISTRADOR DADOS DE ENTRADA
-// EMAIL - master@master.com 
-// SENHA - admin123
+<!-- ADMINISTRADOR DADOS DE ENTRADA
+EMAIL - master@master.com 
+SENHA - admin123 -->
 
 
 <?php session_start(); ?>
